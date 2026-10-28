@@ -7,33 +7,48 @@
   <meta name="description" content="Cozy mobile puzzle games by Burak Şentuna, an independent developer from Türkiye.">
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/lang.js" defer></script>
 </head>
 <body>
 <main>
   <header class="card top">
     <span class="brand">Burak Şentuna · Games</span>
+    <nav class="lang"><a class="pill" href="#en" data-set-lang="en">English</a><a class="pill" href="#tr" data-set-lang="tr">Türkçe</a></nav>
   </header>
 
-  <section class="card">
+  <section class="card" id="en" lang="en">
     <h1>Games</h1>
-    <p class="muted">Cozy mobile puzzle games, made by an independent developer from Türkiye.<br>
-      Türkiye'den bağımsız bir geliştiricinin sevimli mobil bulmaca oyunları.</p>
-
+    <p class="muted">Cozy mobile puzzle games, made by an independent developer from Türkiye.</p>
     <div class="hero" style="margin-top:18px">
-      <a href="makimeow/"><img src="assets/makimeow-icon.png" alt="Maki Meow app icon"></a>
+      <a href="makimeow/#en"><img src="assets/makimeow-icon.png" alt="Maki Meow app icon"></a>
       <div class="text">
-        <h2 style="margin-top:0"><a href="makimeow/" style="color:inherit;text-decoration:none">Maki Meow</a></h2>
-        <p>Hungry cats ride a sushi belt and eat a pixel picture, one colour at a time.<br>
-          <span class="muted">Aç kediler suşi bandında dolaşıp renk renk bir piksel resmi yiyor.</span></p>
+        <h2 style="margin-top:0"><a href="makimeow/#en" style="color:inherit;text-decoration:none">Maki Meow</a></h2>
+        <p>Hungry cats ride a sushi belt and eat a pixel picture, one colour at a time.</p>
         <div class="links">
-          <a class="pill" href="makimeow/">About · Hakkında</a>
-          <a class="pill mint" href="makimeow/support.html">Support · Destek</a>
+          <a class="pill" href="makimeow/#en">About</a>
+          <a class="pill mint" href="makimeow/support.html#en">Support</a>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>Contact · İletişim: <span class="mail">dev.makimeow@gmail.com</span></footer>
+  <section class="card" id="tr" lang="tr">
+    <h1>Oyunlar</h1>
+    <p class="muted">Türkiye'den bağımsız bir geliştiricinin sevimli mobil bulmaca oyunları.</p>
+    <div class="hero" style="margin-top:18px">
+      <a href="makimeow/#tr"><img src="assets/makimeow-icon.png" alt="Maki Meow uygulama simgesi"></a>
+      <div class="text">
+        <h2 style="margin-top:0"><a href="makimeow/#tr" style="color:inherit;text-decoration:none">Maki Meow</a></h2>
+        <p>Aç kediler suşi bandında dolaşıp renk renk bir piksel resmi yiyor.</p>
+        <div class="links">
+          <a class="pill" href="makimeow/#tr">Hakkında</a>
+          <a class="pill mint" href="makimeow/support.html#tr">Destek</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer><span class="mail">dev.makimeow@gmail.com</span></footer>
 </main>
 </body>
 </html>
